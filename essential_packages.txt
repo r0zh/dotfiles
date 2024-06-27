@@ -1,0 +1,5 @@
+neovim
+fastfetch
+swaync
+polkit-kde-agent
+
