@@ -2,4 +2,4 @@ neovim
 fastfetch
 swaync
 polkit-kde-agent
-
+xdg-desktop-portal-hyprland
