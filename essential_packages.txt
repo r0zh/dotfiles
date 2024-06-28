@@ -6,3 +6,4 @@ xdg-desktop-portal-hyprland
 slurp
 grim
 waybar
+hyprpaper
