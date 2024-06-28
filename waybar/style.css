@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FiraCode Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Source Code Pro, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 
@@ -62,6 +62,7 @@ button:hover {
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
+
 
 #workspaces button.active {
     background-color: #64727D;
