@@ -7,3 +7,4 @@ slurp
 grim
 waybar
 hyprpaper
+syncthing
