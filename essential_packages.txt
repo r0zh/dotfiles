@@ -8,3 +8,7 @@ grim
 waybar
 hyprpaper
 syncthing
+
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts
