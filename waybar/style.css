@@ -1,7 +1,9 @@
 * {
   font-family: "JetBrains Mono", monospace;
-  padding: 1px 4px;
+  font-size: 14px;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 window#waybar {
@@ -27,13 +29,14 @@ window#waybar.hidden {
 #custom-launcher,
 #temperature,
 #idle_inhibitor,
+#workspaces,
 #custom-power {
   color: white;
   min-width: 20px;
-  padding: 5px;
   border-radius: 10px;
   background-color: #24283b;
-  margin: 9 9px;
+  padding: 4px;
+  margin: 4 9px;
 }
 
 #backlight {
@@ -63,40 +66,12 @@ window#waybar.hidden {
 }
 
 
-label:focus {
-  background-color: #000;
-}
-
 #battery.warning.charging * {
   color: white;
 }
 
 #battery.critical * {
   color: #e06c75;
-}
-
-#tags button {
-  background-color: #24283b;
-  color: white;
-  border-radius: 15px;
-  margin: 0 3px;
-}
-
-#tags button.occupied {
-  margin: 0 3px;
-  background-color: #194aac;
-}
-
-#tags button.focused {
-  color: #000;
-  margin: 0 3px;
-  background-color: white;
-}
-
-#tags button.urgent {
-  color: red;
-  margin: 0 3px;
-  background-color: white;
 }
 
 /*BORDER RADIUS*/
@@ -133,12 +108,20 @@ label:focus {
 
 #workspaces {
   border-radius: 10px;
-  font-size: 15px;
-  background-size: 400% 400%;
   background-color: #24283b;
-  border-radius: 20px;
-  padding: 0px 10px;
-  margin: 0px 10px;
+  border-radius: 1000px;
+}
+
+#workspaces button{
+  padding: 0px;
+  margin: 0px;
+}
+
+#workspaces button:hover {
+  box-shadow: none;
+  text-shadow: none;
+  background: none;
+  transition: none;
 }
 
 #workspaces button.active * {
