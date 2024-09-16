@@ -30,6 +30,7 @@ window#waybar.hidden {
 #temperature,
 #idle_inhibitor,
 #workspaces,
+#tray,
 #custom-power {
   color: white;
   min-width: 20px;
@@ -40,32 +41,33 @@ window#waybar.hidden {
   margin-top: 5px;
 }
 
-#backlight {
-  margin: 9 0px;
-  min-width: 20px;
-}
 
-#custom-launcher {
-  padding-left: 3px;
+/* Backlight */
+
+#backlight {
+  color: white;
+  min-width: 20px;
+  background-color: #24283b;
+  margin-top: 5px;
 }
 
 .value {
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 10px 10px 0;
   color: white;
-  background-color: #24283b;
-  padding-right: 15px;
   margin-left: 0;
+  background-color: #24283b;
   font-weight: bold;
+  padding-right: 10px;
 }
 
 .icon {
-  border-radius: 20px 0 0 20px;
+  border-radius: 10px 0 0 10px;
   color: white;
   background-color: #24283b;
-  padding-left: 10px;
-  margin-right: 0;
+  padding-left: 2px;
 }
 
+/**/
 
 #battery.warning.charging * {
   color: white;
@@ -73,21 +75,6 @@ window#waybar.hidden {
 
 #battery.critical * {
   color: #e06c75;
-}
-
-/*BORDER RADIUS*/
-#custom-launcher,
-#cpu,
-#disk,
-#memory {
-  border-radius: 10px;
-}
-
-#clock,
-#network,
-#pulseaudio,
-#custom-power {
-  border-radius: 10px;
 }
 
 #network.format-disconnected {
@@ -113,7 +100,7 @@ window#waybar.hidden {
   border-radius: 1000px;
 }
 
-#workspaces button{
+#workspaces button {
   padding: 0px;
   margin: 0px;
 }
@@ -127,10 +114,4 @@ window#waybar.hidden {
 
 #workspaces button.active * {
   color: #8c322b;
-}
-
-
-#mpd {
-  background: transparent;
-  font-size: 12px;
 }
