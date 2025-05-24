@@ -1,2 +1,3 @@
 hyprshot
 hyprshot-gui
+hyprshade
